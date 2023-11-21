@@ -1,2 +1,10 @@
 {
+  "name": "laravel/lumen",
+  "description": "The Laravel Lumen Framework.",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "ext-ffi": "*"
+  }
 }
