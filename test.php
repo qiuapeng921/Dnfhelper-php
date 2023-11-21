@@ -1,20 +1,5 @@
 <?php
 
-//$cpp_ffi = FFI::cdef(
-//    "int Fib(int n);",
-//    "C:\Users\Qiuapeng\Desktop\libphp_cpp_ffi.dll");
-//
-//$start = microtime(true);
-//
-//$start = microtime(true);
-//$c     = 0;
-//for ($i = 0; $i < 1000000; $i++) {
-//    $c = $cpp_ffi->Fib(12);
-//}
-//
-//echo '[CPP] execution time: ' . (microtime(true) - $start) . ' Result: ' . $c . PHP_EOL;
-
-
 $ffi = FFI::cdef("
     typedef void *HANDLE;
     void* OpenProcess(
